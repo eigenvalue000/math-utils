@@ -6,7 +6,11 @@ function norm(x, p, d) {
     if(p === 'inf') {
         console.log('inf norm goes here');
         return 'inf';
-    } else {
+    } else if (!(p===2)) {
+        console.log('break');
+        return 'not supported'
+    }
+    else {
         let z = 0;
         for (let i = 0; i < x.length; i++) {
             z += pow(x[i], p);
