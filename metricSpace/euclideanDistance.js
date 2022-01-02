@@ -11,3 +11,5 @@ function euclideanDistance(x, y, d) {
 }
 
 console.log(euclideanDistance(x, y, d));
+
+module.exports = euclideanDistance;
