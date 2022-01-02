@@ -6,8 +6,6 @@
 // So add each component together and place the result in
 // an array.
 
-const { zeros } = require('mathjs');
-
 roundTo = require('../utils/roundTo');
 
 function scalarProduct(a, x, d) {
