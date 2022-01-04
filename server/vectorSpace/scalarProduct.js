@@ -13,10 +13,8 @@ function scalarProduct(a, x, d) {
     for (let i = 0; i < x.length; i++) {
         z.push(roundTo(a * x[i], d));
     }
-    console.log(z);
+   
     return z;
 }
-
-scalarProduct(5, [1.2736, 2.32762367, 3.2983298732], 3);
 
 module.exports = scalarProduct;

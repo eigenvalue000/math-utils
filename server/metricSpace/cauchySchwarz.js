@@ -11,3 +11,6 @@ function cauchySchwarz(x, y, p, d) {
 }
 
 cauchySchwarz([0.2562356, 172.32637826327, -25635.2367], [2, 3, 6], 2, 4);
+console.log(this)
+
+module.exports = cauchySchwarz;

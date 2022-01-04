@@ -9,6 +9,6 @@ function dotProduct(x, y, d) {
     return roundTo(z, d);
 }
 
-console.log(dotProduct([1, 2, 3], [1.22222, 2.342423, 4.324324243], 2));
+
 
 module.exports = dotProduct;
